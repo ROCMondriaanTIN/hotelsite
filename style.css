@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.lang-toggle {
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.lang-toggle:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.75rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.alert {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.alert:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.alert h4 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.alert p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.alert strong {
+    font-size: 1.3rem;
+    color: #d9534f;
+}
+
+.alert del {
+    font-size: 1rem;
+    color: #999;
+    margin-right: 5px;
+}
+
+.alert small {
+    font-size: 0.85rem;
+    color: #777;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #f1f1f1;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .alert h4 {
+        font-size: 1.25rem;
+    }
+
+    .alert strong {
+        font-size: 1.1rem;
+    }
+}
+
+section {
+    padding: 50px 0; /* Add space around the section */
+    background-color: #f8f9fc; /* Light background to separate section visually */
+    text-align: center; /* Center-align the text */
+}
+
+section h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+section h3 {
+    font-size: 1.5rem;
+    color: #666;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+section .highlight {
+    color: #007bff;
+    font-weight: bold;
+}

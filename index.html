@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Westinhotel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                <h1 id="header-title" class="dutch">Welkom bij Westinhotel</h1>
+                <h1 id="header-title-en" class="english">Welcome to Westinhotel</h1>
+                <p id="header-desc" class="dutch lead">Geniet van de perfecte vakantie-ervaring in Nederland</p>
+                <p id="header-desc-en" class="english lead">Enjoy the perfect holiday experience in the Netherlands</p>
+            </div>
+            <!-- Language Toggle Button -->
+            <button class="btn btn-outline-light lang-toggle" onclick="toggleLanguage()">Switch to English</button>
+        </div>
+    </header>
+
+    <!-- Seasonal Offer Section -->
+    <section class="container mt-5">
+        <h2 class="dutch">Komende maand</h2>
+        <h2 class="english">Coming Month</h2>
+        <p class="dutch">Ontdek de seizoensgebonden aanbiedingen van Westinhotel</p>
+        <p class="english">Discover seasonal offers from Westinhotel</p>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h3 class="dutch">Prachtige herfstdeals bij Westinhotel!</h3>
+                <h3 class="english">Amazing Autumn Deals at Westinhotel!</h3>
+                <p class="dutch">De herfst is het ideale seizoen om jezelf te verwennen met een weekendje weg. Laat je betoveren door de warme kleuren van de natuur en ontspan in stijl. Kom genieten van comfort, gastvrijheid, en een echte vakantiebeleving bij Westinhotel.</p>
+                <p class="english">Autumn is the perfect season to treat yourself to a weekend getaway. Be captivated by the warm colors of nature and relax in style. Enjoy comfort, hospitality, and a true vacation experience at Westinhotel.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section class="container mt-5">
+        <h2 class="dutch">Aanbiedingen</h2>
+        <h2 class="english">Special Offers</h2>
+        <p class="dutch">Profiteer van onze tijdelijke kortingen!</p>
+        <p class="english">Take advantage of our temporary discounts!</p>
+        <div class="row justify-content-center">
+            <!-- Standard Room Card -->
+            <div class="col-md-4">
+                <div class="alert text-center">
+                    <h4 class="dutch">Standaard Kamer</h4>
+                    <h4 class="english">Standard Room</h4>
+                    <p class="dutch">Boek nu de Standaard Kamer en geniet van een knusse, comfortabele ervaring. Perfect voor een rustige nachtrust na een dagje sightseeing!</p>
+                    <p class="english">Book the Standard Room now and enjoy a cozy, comfortable experience. Perfect for a restful night's sleep after a day of sightseeing!</p>
+                    <p><del>€120</del> <strong class="dutch">voor €90</strong><strong class="english">for €90</strong></p>
+                    <p class="dutch">Korting: 25%</p>
+                    <p class="english">Discount: 25%</p>
+                    <small class="dutch">Korting geldig t/m eind november.</small>
+                    <small class="english">Discount valid until the end of November.</small>
+                </div>
+            </div>
+            <!-- Comfort Room Card -->
+            <div class="col-md-4">
+                <div class="alert text-center">
+                    <h4 class="dutch">Comfort Kamer</h4>
+                    <h4 class="english">Comfort Room</h4>
+                    <p class="dutch">Verwen jezelf met extra ruimte en comfort! De Comfort Kamer biedt luxe en rust, ideaal voor wie net dat beetje meer wil.</p>
+                    <p class="english">Treat yourself to extra space and comfort! The Comfort Room offers luxury and peace, ideal for those who want that little bit more.</p>
+                    <p><del>€130</del> <strong class="dutch">voor €100</strong><strong class="english">for €100</strong></p>
+                    <p class="dutch">Korting: 23%</p>
+                    <p class="english">Discount: 23%</p>
+                    <small class="dutch">Korting geldig t/m eind november.</small>
+                    <small class="english">Discount valid until the end of November.</small>
+                </div>
+            </div>
+            <!-- Suite Card -->
+            <div class="col-md-4">
+                <div class="alert text-center">
+                    <h4 class="dutch">Suite</h4>
+                    <h4 class="english">Suite</h4>
+                    <p class="dutch">Beleef luxe in onze suite! Perfect voor een romantische getaway of een luxe verblijf met alle gemakken van thuis.</p>
+                    <p class="english">Experience luxury in our suite! Perfect for a romantic getaway or a luxurious stay with all the comforts of home.</p>
+                    <p><del>€160</del> <strong class="dutch">voor €120</strong><strong class="english">for €120</strong></p>
+                    <p class="dutch">Korting: 25%</p>
+                    <p class="english">Discount: 25%</p>
+                    <small class="dutch">Korting geldig t/m eind november.</small>
+                    <small class="english">Discount valid until the end of November.</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-dark text-white">
+        <p class="dutch">&copy; 2024 Westinhotel - Alle rechten voorbehouden.</p>
+        <p class="english">&copy; 2024 Westinhotel - All rights reserved.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
